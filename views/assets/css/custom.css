@@ -1,0 +1,114 @@
+.header_fixed .body-overlay{
+    padding-top: 84px;
+}
+
+.header-bottom__logo{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.slider__bg{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.slider__height{
+    height: 600px !important;
+}
+.slider__title{
+    font-size: 64px !important;
+}
+.blog__img img{
+    transition: .6s;
+    height: 250px;
+    object-fit: cover;
+}
+.blog__title{
+    height: 140px;
+    overflow: hidden;
+}
+.blog__title-box p{
+    height: 230px;
+    overflow: hidden;
+}
+.breadcrumb__height{
+    padding: 40px 0;
+}
+.breadcrumb__title{
+    font-size: 28px;
+    padding: 15px 0;
+    background-color: rgba(255,255,255,.1);
+    background-clip: border-box;
+    margin-bottom: 15px;
+}
+.breadcrumb__list{
+    padding: 0;
+    text-align: left;
+}
+.breadcrumb__list span{
+    text-transform: none;
+}
+.slider__video, .slider__video a{
+    display: flex;
+    align-items: center;
+}
+.slider__video a{
+    justify-content: center;
+}
+.slick-slide{
+    height: auto;
+}
+.inner_pages .blog__item{
+    box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
+.sidebar__widget{
+    padding: 30px;
+}
+.rc__meta span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.service__content p, .service__title-sm{
+    height: 88px;
+    overflow: hidden;
+}
+.swiper-container{
+    height: fit-content;
+}
+.testimonial__content p{
+    height: 90px;
+    overflow: hidden;
+}
+.testimonial__thum-sm img{
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer__content.reglament p{
+    margin: 0;
+    padding: 0;
+}
+.nice-select .list{
+    height: 120px;
+    overflow: auto;
+}
+.team__thumb img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px){
+    .slider__active button.slick-prev{
+        top: 90%;
+    }
+    .header-bottom__logo{
+        font-size: 20px
+    }
+    .slider__active button.slick-next{
+        top: 90%;
+    }
+}
